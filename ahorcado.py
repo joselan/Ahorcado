@@ -31,7 +31,7 @@ def ahorcado(word):
             remaining_letters[cind] = '$'
         else:
             wrong += 1
-        print(("\n""Palabra:"+" ".join(board)))
+        print(("\n""Palabra: "+" ".join(board)))
         e = wrong + 1
         print("\n".join(stages[0: e]))
         if "_" not in board:
